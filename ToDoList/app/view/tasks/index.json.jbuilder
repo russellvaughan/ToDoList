@@ -1,0 +1,1 @@
+json.array! @task, :id, :name, :completed
