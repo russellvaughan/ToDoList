@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Backbone.js • TodoMVC</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/index.css">
+</head>
+<body>
+
+<div class='title'><center><img src="http://i.imgur.com/oVB9ecS.png" /><center> 
+ <section id= "centered" class= jumbotron> 
+  <section id="todoapp">
+    <header id="header">
+      <center><h1>Enter Task To Complete</h1><center>
+      <input id="new-todo" class="form-control" placeholder="What needs to be done?" autofocus>
+    </header>
+    <section id="main">
+      <input type="checkbox" id="toggle-all">
+      <label for="toggle-all" class="toggle">Mark all as complete</label>
+      <ul id="todo-list"></ul>
+    </section>
+  </section>
+  </section>
+</div>
+
+
+  <script type="text/template" id="item-template">
+  <div class="view">
+  <input class="toggle" type="checkbox" <%= completed ? 'checked' : ' ' %>>
+  <input class="edit" value="<%= name %>"> 
+  <button id = "edit-button" class="btn btn-secondary btn-sm">Edit</button>
+  <button id = "destroy" class="btn btn-secondary btn-sm"="destroy"> &#10006</button>
+  </hr>
+  </div>
+  </script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+    <script src="js/models/todo.js"></script>
+    <script src="js/collections/todos.js"></script>
+    <script src="js/views/todos.js"></script>
+    <script src="js/views/app.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+  </html>
