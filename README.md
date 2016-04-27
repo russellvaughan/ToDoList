@@ -8,8 +8,8 @@ Russell Vaughan
 
 ## Overview of technologies used:
 
--Frontend: Backbone.js 
--Backend: Rails API 
+*Frontend: Backbone.js 
+*Backend: Rails API 
 
 ## Screenshots
 
