@@ -11,6 +11,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 }
 
+.big-checkbox {width: 30px; height: 30px;}
+
 #centered {
 text-align:center;
 position: fixed;
@@ -58,7 +60,8 @@ h1 { font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 }
 
 .edit { font-family: 'Helvetica', Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 20px;
+	width: 250px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
