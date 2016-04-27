@@ -1,6 +1,6 @@
 # To Do List
 
-A 'to do' list built with a Backbone.Js front end and Rails API back end. A user is able to view a list of their current ToDos, add and remove them from the list and mark them as completed, preserving the state on page refresh.
+A 'to do' list built with a Backbone.Js front end and Rails API back end. A user is able to view a list of their current 'to dos', add and remove them from the list and mark them as completed, preserving the state on page refresh.
 
 ## Author
 
